@@ -1,0 +1,31 @@
+textarea {
+    min-height: 400px;
+}
+
+.mailbox-view{
+    border: 0.5px solid brown;
+    background-color: white;
+    padding: 5px;
+    margin: 3px;
+}
+.mailbox-view-readed{
+    border: 0.5px solid chocolate;
+    background-color: rgba(248, 248, 244, 0.986);
+    padding: 5px;
+    margin: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#message-view{
+    display: none;
+    border: 0.5px solid green; 
+    background-color: greenyellow; 
+    text-align: center;
+}
+
+
+.timestamp{
+    color: gray;
+    float: right;
+}
